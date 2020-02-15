@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowerful Moments</title>
+    <link property="stylesheet" rel="stylesheet" type="text/css" href="css/reset.css">
+    <link property="stylesheet" rel="stylesheet" type="text/css" href="css/styles.css">
+    <link property="stylesheet" rel="stylesheet" type="text/css" href="css/product.css">
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="canonical" href="http://flowerful-moments.com/product.html" />
+</head>
+<body class="page">
+<header class="header page__header">
+    <div class="logo header__logo">
+        <a href="index.html"><img class="logo__image" src="images/logo.png" alt="" /></a>
+    </div>
+    <nav class="nav header__nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+            <li class="nav__item nav__item--bold"><a class="nav__link" href="product.html">Product</a></li>
+            <li class="nav__item"><a class="nav__link" href="contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+    <div class="phone header__phone">
+        <a class="phone__link" href="tel:+984563123500"><svg class="phone__icon" width="21" height="21" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.8101 15.0367L15.584 14.325L12.6067 17.265C9.25287 15.5806 6.52682 12.8886 4.82109 9.57667L7.81012 6.625L7.08944 0.5H0.57974C-0.105492 12.3767 9.78311 22.1417 21.8101 21.465V15.0367Z" fill="#393D50"/>
+        </svg>+98 456 312 35 00</a>
+    </div>
+</header>
+<main class="main page__main">
+
+    <div class="container main__container main__container--active">
+        <div class="container-left container__container-left">
+            <div class="container-left__title">
+                <h1>Roses and tulips</h1>
+            </div>
+            <p class="container-left__p">The bouquet is suitable for any occasion. For a holiday, birthday or just for a good mood</p>
+            <a href="#"><button class="button container-left__button">Buy flowers</button></a>
+        </div>
+        <div class="container-right container__container-right">
+            <img class="container-right__image" src="images/bouquet.png" alt="bouquet" />
+        </div>
+    </div>
+
+    <div class="container main__container">
+        <div class="container-left container__container-left">
+            <div class="container-left__title">
+                <h1>Single roses</h1>
+            </div>
+            <p class="container-left__p">A mini bouquet, in honor of February 14, will give your loved ones a lot of smiles.</p>
+            <a href="#"><button class="button container-left__button">Buy flowers</button></a>
+        </div>
+        <div class="container-right container__container-right">
+            <img class="container-right__image" src="images/roses.png" alt="roses" />
+        </div>
+    </div>
+
+    <div class="container main__container">
+        <div class="container-left container__container-left">
+            <div class="container-left__title">
+                <h1>Two flowers</h1>
+            </div>
+            <p class="container-left__p">2 roses like 2 candies, just another We can deliver it directly to the bank from under the cucumbers, we can beautifully pack it.</p>
+            <a href="#"><button class="button container-left__button">Buy flowers</button></a>
+        </div>
+        <div class="container-right container__container-right">
+            <img class="container-right__image" src="images/flowers.png" alt="flowers" />
+        </div>
+
+    </div>
+</main>
+
+<button class="left-arrow page__left-arrow" onclick="next(-1)"><svg width="53" height="38" viewBox="0 0 53 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.23223 17.2322C0.255924 18.2085 0.255924 19.7915 1.23223 20.7678L17.1421 36.6777C18.1184 37.654 19.7014 37.654 20.6777 36.6777C21.654 35.7014 21.654 34.1184 20.6777 33.1421L6.53553 19L20.6777 4.85787C21.654 3.88156 21.654 2.29864 20.6777 1.32233C19.7014 0.346023 18.1184 0.346023 17.1421 1.32233L1.23223 17.2322ZM53 16.5L3 16.5L3 21.5L53 21.5L53 16.5Z" fill="#EDE5D8"/></svg>
+</button>
+<button class="right-arrow page__right-arrow" onclick="next(1)"><svg width="53" height="38" viewBox="0 0 53 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M51.7678 17.2322C52.7441 18.2085 52.7441 19.7915 51.7678 20.7678L35.8579 36.6777C34.8816 37.654 33.2986 37.654 32.3223 36.6777C31.346 35.7014 31.346 34.1184 32.3223 33.1421L46.4645 19L32.3223 4.85786C31.346 3.88155 31.346 2.29864 32.3223 1.32233C33.2986 0.346017 34.8816 0.346017 35.8579 1.32233L51.7678 17.2322ZM-2.2466e-07 16.5L50 16.5L50 21.5L2.2466e-07 21.5L-2.2466e-07 16.5Z" fill="#F56457"/></svg>
+</button>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="js/myScript.js"></script>
+</body>
+</html>
