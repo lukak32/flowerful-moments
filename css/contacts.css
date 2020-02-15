@@ -1,0 +1,27 @@
+.container-left .container-left__soc-net{}
+.soc-net{
+    display: flex;
+    justify-content: space-between;
+    width: 63.93%;
+    margin-bottom: 100px;
+}
+.soc-net__btn{
+    background-color: #EDE5D8;
+    width: 100px;
+    height: 100px;
+    color: #F7F6F4;
+}
+.soc-net__btn:hover .soc-net__icon{
+    fill: #F56457;
+}
+.container-left__p--orange{
+    color: #F56457;
+    cursor: pointer;
+}
+.p-arrow{
+    padding-left: 20px;
+}
+.page__left-arrow{
+    left: 52.57%;
+}
+
