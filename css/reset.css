@@ -139,12 +139,12 @@ li{
 button{
     cursor: pointer;
 }
-@media (max-width: 1230px){
+@media (max-width: 1284px){
     h2{
         font-size: 120px;
     }
 }
-@media (max-width: 1024px){
+@media (max-width: 1073px){
     h2{
         font-size: 100px;
     }
