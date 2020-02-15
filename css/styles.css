@@ -78,24 +78,32 @@
     left: 0;
     right: 47.43%;
     padding-left: 8.33%;
-    padding-top: 154px;
+    padding-top: 150px;
     padding-bottom: 130px;
+    padding-right: 2%;
 }
 .container .container__container-right{
     position: absolute;top: 0;bottom: 0;right: 0;left: 52.57%;
 }
-.container-left{}
+.container-left{
+    display: flex;
+    flex-direction: column;
+}
 .container-left__title{
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .container-left__p{
     line-height: 145%;
     font-size: 30px;
-    margin-bottom: 75px;
+    margin-bottom: 46px;
 }
+.container-left__buttons{display: flex;justify-content: space-between;}
 .container-left .container-left__button{
 }
-.button{padding: 40px 100px;width: 377px;height: 115px;font-size: 30px;background-color: #F56457;color: #F7F6F4;font-weight: bold;margin-bottom: -30px;letter-spacing: 1px;}
+.container__link{
+    width: fit-content;
+}
+.button{padding: 40px 100px;font-size: 30px;background-color: #F56457;color: #F7F6F4;font-weight: bold;letter-spacing: 1px;line-height: 117%;}
 .container-right{
 }
 .container-right__image{
@@ -134,8 +142,38 @@
     background-color: rgba(245, 100, 87, 0.8);
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1200px){
+    .nav .nav__list{
+        width: 320px;
+    }
+    .phone .phone__icon{
+        padding-right: 12px;
+    }
+    .page__left-arrow{
+        right: 130px;
+    }
     .container-left__p{
         font-size: 24px;
+    }
+    .button{
+        padding: 30px 80px;
+    }
+    .left-arrow{
+        width: 130px;
+        height: 100px;
+    }
+    .right-arrow{
+        width: 130px;
+        height: 100px;
+    }
+}
+
+@media (min-height: 1000px){
+    .container-left__title{
+        margin-top: 30%;
+        margin-bottom: 5%;
+    }
+    .container-left__p{
+        margin-bottom: 15%;
     }
 }
